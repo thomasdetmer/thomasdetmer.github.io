@@ -40,7 +40,7 @@ body {
     flex-direction: row;
     width: 100%;
     height: auto;
-    min-height: 95vh;
+    min-height: 96vh;
     margin: 0 auto;
     padding: 0;
     max-width: 1500px;
@@ -55,7 +55,6 @@ body {
     flex-direction: column;
     /* outline: black solid 1px; */
     width: 20%;
-    /* height: 100%; */
     height: 100%;
     background-color: var(--alt-bg-color2);
     /* border-right: solid 1px black; */
@@ -145,7 +144,7 @@ footer {
     align-content: center;
     /* border-top: 1px solid black; */
     font-size: 75%;
-    max-height: 5vh;
+    min-height: 4vh;
     
 }
 
