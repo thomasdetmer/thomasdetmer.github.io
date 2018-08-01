@@ -83,10 +83,7 @@ body {
 .aboutme {
     display: flex;
     width: 80%;
-    /* height: auto; */
     font-size: .9em;   
-    /* box-shadow: 1px 0 0 black; */
-    /* margin-left: 1.5em; */
     margin: auto;
     margin-top: 1em;
 }
@@ -124,7 +121,7 @@ article {
     height: auto;
 }
 
-p {
+article > p {
 
     max-width: 70ch;
     margin: auto;
