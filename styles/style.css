@@ -12,14 +12,11 @@
 
 html {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     font-family: "Verdana", "Geneva", sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
-    /* height: 100%; */
-    height: auto;
-    /* min-height: 100vh; */
 }
 
 body {
@@ -28,7 +25,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: auto;
+    /* height: auto; */
     min-height: 100vh;
     margin: 0 auto;
     padding: 0;
@@ -38,8 +35,9 @@ body {
 .bodytop {
     display: flex;
     flex-direction: row;
+    align-items: stretch;
     width: 100%;
-    height: auto;
+    /* height: auto; */
     min-height: 95vh;
     margin: 0 auto;
     padding: 0;
@@ -49,13 +47,11 @@ body {
 .leftsidebar {
     display: flex;
     flex-direction: column;
-    /*
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    align-items: stretch;
     /* outline: black solid 1px; */
     width: 20%;
-    height: 100%;
+    /* height: 100%; */
     background-color: var(--alt-bg-color2);
     border-right: solid 1px var(--piping-color);
     /* border-left-width: 0px; */
@@ -80,7 +76,6 @@ body {
 
 .aboutme {
     display: flex;
-    flex-direction: column;
     width: 80%;
     /* height: auto; */
     font-size: .9em;   
@@ -95,10 +90,11 @@ body {
     display: flex;
     flex-direction: column;
     width: 80%;
-    height: auto;
+    /* height: auto; */
 }
 
 header {
+    display: flex;
     padding: 0;
     margin: 0;
     width: 100%;
@@ -108,7 +104,7 @@ header {
 
 img.top {
     width: 100%;
-    height: 100%;
+    /* object-fit: scale-down; */
     padding: 0;
 }
 
