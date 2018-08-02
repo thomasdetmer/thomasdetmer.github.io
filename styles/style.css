@@ -42,9 +42,7 @@ body {
     flex-direction: row;
     align-items: stretch;
     width: 100%;
-    /* height: auto; */
     min-height: 95vh;
-    /* height: 95vh; */
     margin: 0 auto;
     padding: 0;
     max-width: var(--max-width);
@@ -55,13 +53,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    /* outline: black solid 1px; */
     width: 20%;
-    /* height: 100%; */
     background-color: var(--alt-bg-color2);
     border-right: solid 1px var(--piping-color);
-    /* border-left-width: 0px; */
-    /* border-right-width: 0px; */
 }
 
 .picbox {
@@ -70,7 +64,6 @@ body {
     align-items: center;
     box-shadow: 0 1px 0 var(--piping-color); 
     width: 100%;
-    /* height: 30%; */
     height: calc(100vw / 7);
     max-height: 250px;
 }
@@ -139,9 +132,6 @@ article > p {
     max-width: 70ch;
     margin: auto;
     height: auto;
-    /* padding-bottom: 1em; 
-    padding-left: 2.5em;
-    padding-right: 2.5em;   */
 }
 
 
@@ -162,7 +152,8 @@ footer {
 }
 
 
-table.navBar {
+.navBar {
+    display: flex;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -175,8 +166,12 @@ table.navBar {
 
 a.nounder {
     text-decoration: none;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
     color: inherit;
+    overflow: hidden;
 }
 
 /* Table cell formatting */
@@ -206,6 +201,9 @@ th.farleft {
 }
 
 .tabs {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background-color: var(--main-bg-color);
     border: none;
     height: 100%;
@@ -218,6 +216,9 @@ th.farleft {
 }
 
 .activeTab {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background-color: var(--alt-bg-color);
     color: var(--alt-bg-color2);
     border: none;
